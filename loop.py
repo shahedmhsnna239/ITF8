@@ -65,8 +65,6 @@ def main():
                 length = float(input("Enter the length of the rectangle: "))
                 width = float(input("Enter the width of the rectangle: "))
                 result = calculate_rectangle_area(length, width)
-        else:
-            print("Invalid choice. Please select a valid option.")
         print("Result:", result)
 
 if __name__ == "__main__":
